@@ -16,12 +16,12 @@ function clickhandler(){
 
 function calculateprofitandloss(intial,quantity,current){
     if (intial>current){
-        var loss=(intial-current)*100;
+        var loss=(intial-current)*quantity;
         var losspercentage=(loss/intial)*100;
 
         output.innerText=`Your loss is ${loss} and your Loss-percentage is ${losspercentage} `
         }else if(current>intial){
-        var profit=(current-intial)*100;
+        var profit=(current-intial)*quantity;
         var profitpercentage=(profit/intial)*100;
 
         output.innerText=`Your profit is ${profit} and your Profit-percnetage is ${profitpercentage}%`
