@@ -24,7 +24,7 @@ function calculateprofitandloss(intial,quantity,current){
         var profit=(current-intial)*quantity;
         var profitpercentage=(profit/intial)*100;
 
-        output.innerText=`Your profit is ${profit} and your Profit-percnetage is ${profitpercentage}%`
+        output.innerText=`Your profit is ${profit} and your Profit-percentage is ${profitpercentage}%`
 
 }else{
     output.innerText="There is no loss no gain"
