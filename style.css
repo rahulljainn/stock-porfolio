@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+    background-color: rgb(57, 57, 124);
+    
+}
+label{
+    display: block;
+    padding: 0.5rem;
+    font-size: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+input{
+    width: 27vh;
+    font-size: large;
+    margin-left:1rem
+}
+h2{
+    font-size: 5rem;
+text-decoration: underline overline;
+}
+button{
+    font-size: large;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+div{
+    font-size: 2.5rem;
+    font-style:italic;
+    font-weight: bold;
+    padding-top: 1rem;
+}
