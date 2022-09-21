@@ -16,9 +16,9 @@ function clickhandler(){
     
         calculateprofitandloss(ip,qty,curr);}
         else if( intialPrice.value<0 || quantitystck.value<0 || currentPrice.value<0){ 
-            alert("Negative value are not allowed")
+            output.innerText=("Negative value are not allowed")
         }else{
-            alert("Please Enter valid information")
+            output.innerText=("Please Enter valid information")
         }
     
 }
